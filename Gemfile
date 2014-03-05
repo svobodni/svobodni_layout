@@ -12,3 +12,9 @@ gemspec
 
 # To use debugger
 # gem 'debugger'
+
+group :test do
+  gem 'shoulda-context'
+  gem 'mocha', :require => false
+end
+
